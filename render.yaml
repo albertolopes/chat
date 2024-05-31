@@ -8,7 +8,7 @@ services:
       - key: JAVA_OPTS
         value: -Xmx512m
     autoDeploy: true
-    healthCheckPath: /
+    healthCheckPath: /health
     serviceDetails:
       - key: port
         value: 8080
